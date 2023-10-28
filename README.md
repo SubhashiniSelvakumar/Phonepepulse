@@ -4,10 +4,15 @@ The Phonepe pulse Github repository contains a vast collection of metrics and st
 
 **Technology Stack Used:**
 1)Python
+
 2)MySQL
+
 3)Streamlit
+
 4)Github Cloning
+
 5)Geo Visualisation
+
 6)Dynamic Updation
 
 **Approach:**
