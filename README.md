@@ -4,7 +4,7 @@
 
 The Phonepe pulse Github repository contains a vast collection of metrics and statistics. The objective of this project is to extract and process this data, enabling the generation of user-friendly visualizations that provide valuable insights.
 
-**Technology Stack Used:**
+**Technology Used:**
 
 1)Python
 
