@@ -44,7 +44,7 @@ with st.sidebar:
                         "nav-link-selected": {"background-color": "#6F36AD"}})
 # MENU 1 - HOME
 if selected == "Home":
-    st.image(r"C:\Users\Pragadheesh\Downloads\phone1.png")
+    st.image(Image.open(r"D:\Subhashini\Datascience\Tools\Phonepe.png"))
     st.markdown("# :violet[Phonepe Pulse Data Visualization and Exploration]")
     st.markdown("## :violet[A User-Friendly Tool Using Streamlit and Plotly]")
     col1,col2 = st.columns([3,2],gap="medium")
@@ -55,7 +55,7 @@ if selected == "Home":
         st.markdown("### :violet[Technologies used :] Github Cloning, Python, Pandas, PyMySQL, mysql-connector-python, Streamlit, and Plotly.")
         st.markdown("### :violet[Overview :] In this streamlit web app you can visualize the phonepe pulse data and gain lot of insights on transactions, number of users, top 10 state, district, pincode and which brand has most number of users and so on. Bar charts, Pie charts and Geo map visualization are used to get some insights.")
     with col2:
-        st.image("D:\Subhashini\Datascience\Tools\home.jpg")
+        st.image(Image.open("D:\Subhashini\Datascience\Tools\home.jpg"))
         
 
 # MENU 2 - TOP CHARTS
@@ -371,4 +371,4 @@ if selected == "About":
         st.write(" ")
         st.write(" ")
         st.write(" ")
-        st.image("D:\Subhashini\Datascience\Tools\Phonepe.png")
+        st.image(Image.open(r"C:\Users\Pragadheesh\Downloads\phone1.png"))
